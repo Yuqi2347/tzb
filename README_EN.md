@@ -43,6 +43,8 @@ The training data covers VQA, Caption, and Refer tasks, with sources including E
 
 Remote-sensing images combine wide-area context with small fine-grained targets. The project introduces hierarchical visual focusing: a multi-resolution image pyramid first builds global context, then selected regions are refined at higher resolution. The nine-grid slicing and local re-reasoning strategy helps balance global layout, local objects, and spatial relations.
 
+![Hierarchical visual focusing strategy](docs/assets/hierarchical-visual-focusing.png)
+
 ## Evaluation
 
 The project evaluates three core capabilities:
