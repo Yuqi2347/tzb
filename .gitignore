@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Local assets
+datasets/
+models/
+checkpoints/
+outputs/
+eval_results/
+eval_cot_results/
+runs/
+wandb/
+nltk_data/
+
+# Model weights and generated artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.tfevents.*
+events.out.tfevents.*
+
+# Large media and archives
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Keep intentionally tracked documentation assets
+!docs/assets/
+!docs/assets/**
+
+# Third-party checkouts
+llava/
+coco-caption/
+BboxToolkit/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

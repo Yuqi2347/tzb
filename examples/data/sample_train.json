@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sample-caption-0001",
+    "image": "examples/images/sample.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n[caption] Describe the remote sensing image."
+      },
+      {
+        "from": "gpt",
+        "value": "A remote sensing image containing buildings, roads, and vegetation."
+      }
+    ]
+  },
+  {
+    "id": "sample-vqa-0001",
+    "image": "examples/images/sample.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n[vqa] What is the dominant land-cover type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Urban area"
+      }
+    ]
+  }
+]

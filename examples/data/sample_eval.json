@@ -1,0 +1,16 @@
+[
+  {
+    "Image": "sample.png",
+    "Text": "Identify the dominant land-cover type in the image.",
+    "Answer choices": [
+      "(A) Water",
+      "(B) Urban area",
+      "(C) Forest",
+      "(D) Snow"
+    ],
+    "Ground truth": "B",
+    "Task": "Land use classification",
+    "Subtask": "Overall land use classification",
+    "Question id": "sample/0001"
+  }
+]

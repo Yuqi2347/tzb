@@ -1,0 +1,100 @@
+Task 1: Image Caption
+
+Instruction：Please generate a detailed natural language description for the given remote sensing image.
+
+Ground Truth Example: An overhead aerial image shows two large, modern buildings connected by a skywalk. The southern building has a light gray roof with two large yellow "W" logos. The complex is surrounded by parking lots, roads, green spaces, and trees. A set of parallel railway tracks runs through the bottom-right corner of the image.
+
+Task 2: Visual Grounding
+
+Instruction 1: Locate "the building with the yellow W logos on its roof" in the image and return the specific coordinates of the bounding box.
+Instruction 2: Locate "the skywalk connecting the two main buildings" in the image and return the specific coordinates of the bounding box.
+Instruction 3: Locate "the railway tracks in the bottom-right corner of the image" and return the specific coordinates of the bounding box.
+
+Task 3: Visual Question Answering (VQA)
+
+1. Object Recognition & Counting
+
+Question 1: Approximately how many vehicles are parked in the large parking lot in the upper-right corner of the image?
+A) Less than 10
+B) 10-20
+C) 20-30
+D) More than 30
+Correct Answer: B
+
+Question 2: How many cars are parked side-by-side in the dedicated small parking lot next to the southern building (the one with the "W" logos)?
+A) 3
+B) 5
+C) 7
+D) 9
+Correct Answer: C
+
+Question 3 (Open-ended): What is the total number of individual, clearly visible trees in the image?
+(Note: This open-ended question is suitable for the VRSBench benchmark, requiring the model to output a precise count.)
+2. Land Use Classification & Scene Inference
+
+Question 4: Based on the architectural style and roof logos, what is the most likely function of this complex?
+A) A large shopping mall
+B) An industrial manufacturing zone
+C) A university campus or sports arena
+D) An airport terminal
+Correct Answer: C
+
+Question 5: What are the two parallel linear features located at the bottom-right edge of the image?
+A) A highway
+B) Railway tracks
+C) A river
+D) An airstrip
+Correct Answer: B
+
+Question 6: What type of urban scene does the image depict overall?
+A) A high-density downtown commercial district
+B) A suburban institutional complex (like a campus or public facility)
+C) A purely residential neighborhood
+D) A rural-urban fringe
+Correct Answer: B
+
+2. Land Use Classification & Scene Inference
+
+Question 4: Based on the architectural style and roof logos, what is the most likely function of this complex?
+A) A large shopping mall
+B) An industrial manufacturing zone
+C) A university campus or sports arena
+D) An airport terminal
+Correct Answer: C
+
+Question 5: What are the two parallel linear features located at the bottom-right edge of the image?
+A) A highway
+B) Railway tracks
+C) A river
+D) An airstrip
+Correct Answer: B
+
+Question 6: What type of urban scene does the image depict overall?
+A) A high-density downtown commercial district
+B) A suburban institutional complex (like a campus or public facility)
+C) A purely residential neighborhood
+D) A rural-urban fringe
+Correct Answer: B
+
+3. Detail, Attribute & Spatial Reasoning
+
+Question 7: What prominent features are visible on the roof of the northern building (the one with the dark roof)?
+A) Multiple swimming pools
+B) Large solar panels
+C) Several square-shaped ventilation or HVAC units
+D) A helicopter landing pad
+Correct Answer: C
+
+Question 8: In which direction is the building with the "W" logos located relative to the railway tracks?
+A) Northwest
+B) Southeast
+C) Northeast
+D) Southwest
+Correct Answer: A
+
+Question 9: Besides the connecting skywalk, what is the primary landscape feature on the ground between the two main buildings?
+A) A parking lot
+B) A pond or fountain
+C) Green space with trees and curved pathways
+D) A basketball court
+Correct Answer: C
